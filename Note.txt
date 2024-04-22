@@ -1,3 +1,5 @@
+Per il GITHUB: https://github.com/RobertoRobortella/GIT_REPOSITORY/blob/main/Note.txt
+
 //ad ogni modifica o aggiunta di cartelle, file e sottocartelle eseguire i sotto: ~/Documents/WORKSPACE/GIT_REPOSITORY 
 
 git add .

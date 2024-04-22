@@ -1,0 +1,12 @@
+//Creo la cartella a cui applicare l'environnement
+mkdir test_01
+cd test_01
+
+//Creo l'envirronement variable associata alla cartella di progetto di cui sopra
+python3 -m venv test_01_env
+
+//Abilito la variabile d'ambiente dalla cartella superiore a quella di test_01
+source test_01/test_01_env/bin/activate
+
+//Disabilito la variabile d'ambiente dalla cartella superiore a quella di test_01
+deactivate

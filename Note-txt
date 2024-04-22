@@ -1,0 +1,4 @@
+git add .
+git commit -m "nota2
+git push origin main
+

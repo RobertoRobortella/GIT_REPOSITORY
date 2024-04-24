@@ -1,0 +1,29 @@
+Da:
+https://www.youtube.com/watch?v=VCuyO7Chvc8
+https://github.com/rajdeep66/edaBundle_whyRD/blob/main/install_opePDK.sh
+https://xschem.sourceforge.io/stefan/xschem_man/tutorial_xschem_sky130.html
+
+per creare un nuovo progetto:
+
+mkdir PJTxx
+cd PJTxx
+cp /usr/local/share/pdk/sky130B/libs.tech/xschem/xschemrc .
+xschem
+
+Ogni simulazione deve contenere il blocchetto di simulazione: code_shown.sym
+che deve contenere almeno (es.):
+name=VTC1 only_toplevel=false value=".lib /usr/local/share/pdk/sky130A/libs.tech/ngspice/sky130.lib.spice tt
+.dc vin 0 2 1m   
+.save all 
+.end"
+
+per la simulazione: Nelezionare la netlist di tipo Spice nel menu OPTION
+Cliccare Netlist nella finestra in alto a destra
+Cliccare Simulate in alto a destra
+
+Dalla console xterm di ngspice:
+display // per vedere i segnali
+plot xx // per vedere 1 segnale 
+plot xx yy ... // per vedere ... segnali
+meas dc vm when vin=vout  // per farsi calcolare l'intersezione dei due grafici
+

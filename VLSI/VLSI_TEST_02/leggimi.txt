@@ -1,0 +1,11 @@
+Da:
+https://www.youtube.com/watch?v=VCuyO7Chvc8
+https://github.com/rajdeep66/edaBundle_whyRD/blob/main/install_opePDK.sh
+https://xschem.sourceforge.io/stefan/xschem_man/tutorial_xschem_sky130.html
+
+per creare un nuovo progetto:
+
+mkdir PJTxx
+cd PJTxx
+cp /usr/local/share/pdk/sky130B/libs.tech/xschem/xschemrc .
+xschem

@@ -3,6 +3,6 @@ Per il GITHUB: https://github.com/RobertoRobortella/GIT_REPOSITORY/blob/main/Not
 //ad ogni modifica o aggiunta di cartelle, file e sottocartelle eseguire i sotto: ~/Documents/WORKSPACE/GIT_REPOSITORY 
 
 git add .
-git commit -m "nota2
+git commit -m "nota2"
 git push origin main
 

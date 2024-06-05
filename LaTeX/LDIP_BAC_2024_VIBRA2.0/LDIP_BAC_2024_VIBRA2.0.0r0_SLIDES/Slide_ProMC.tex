@@ -1,0 +1,86 @@
+%$Id: Slide_ProMC.tex 99 2019-09-05 07:37:17Z agatinochristian.tavilla@supsi.ch $
+\documentclass[12pt, t, aspectratio=169]{beamer}
+\usetheme{CambridgeUS}
+\usecolortheme{whale}
+\usepackage[T1]{fontenc} 
+\usepackage[utf8]{inputenc}
+\usepackage[italian, english]{babel}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{epstopdf}
+\usepackage{textcomp}
+\usepackage{askmaps}
+\usepackage{xcolor,colortbl}
+\usepackage{subfig}
+
+%%%%
+\usepackage{sansmathaccent}
+\pdfmapfile{+sansmathaccent.map}
+%%%%
+\usepackage{listings}             % Include the listings-package
+
+\lstdefinestyle{customc}{
+  belowcaptionskip=1\baselineskip,
+  breaklines=true,
+  frame=L,
+  xleftmargin=\parindent,
+  language=C,
+  showstringspaces=false,
+  basicstyle=\footnotesize\ttfamily,
+  keywordstyle=\bfseries\color{green!40!black},
+  commentstyle=\itshape\color{purple!40!black},
+  identifierstyle=\color{blue},
+  stringstyle=\color{orange},
+}
+
+\lstdefinestyle{customasm}{
+  belowcaptionskip=1\baselineskip,
+  frame=L,
+  xleftmargin=\parindent,
+  language=[Motorola68k]Assembler,
+  basicstyle=\tiny\ttfamily,
+  keywordstyle=\bfseries\color{green!40!black},
+  commentstyle=\itshape\color{purple!40!black}
+}
+
+\lstset{escapechar=@, style=customc}
+
+
+%\usepackage{listings}
+%\usepackage[dvipsnames]{xcolor}
+\author{Relatore: R.Robortella $\&$ Co-relatore: C.Tavilla}
+\title{Dispositivo medico-estetico ViBra 2.0}
+
+%\setbeamercovered{transparent} 
+%\setbeamertemplate{navigation symbols}{} 
+%\logo{} 
+\institute{ISEA-DTI-SUPSI} 
+\date{} 
+%\subject{} 
+%\definecolor{darkgreen}{rgb}{0.2,0.52,0.36}
+\definecolor{darkblue}{rgb}{0.0,0.00,0.55}
+\definecolor{ultralightgray}{rgb}{0.9,0.9,0.9}
+%\setbeamercolor{block title}{bg=darkgreen,fg=white}
+\setbeamercolor{frametitle}{fg=darkblue}
+\useinnertheme{rectangles}
+\setbeamercolor{block body}{bg=ultralightgray}
+
+\subtitle{Proposta: Progetto di Diploma, SE-2024}
+%\subtitle{Topic: Microcontroller}
+
+\includeonly{
+IntroductionCourse,
+%Microcontroller,
+}
+
+\begin{document}
+\begin{frame}
+\titlepage
+\end{frame}
+\include{IntroductionCourse}
+
+%\include{Microcontroller}
+
+\end{document}

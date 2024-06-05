@@ -1,0 +1,59 @@
+in			//mostra gli utenti della macchina (>1000 utenti persone)
+
+sudo su			//passa a super user
+
+sudo apt-get update	//verifica aggiornamenti
+sudo apt-get upgrade	//applica gli aggiornamenti
+apt-cache search vlc		//cerca allusioni al programma VLC
+aptitute search vlc		//verifica lo stato di vlc
+apt-get remove xxx		//disistalla il pacchetto soft xxx
+apt-get purge xxx		//toglie tutto quello che é correlato con il soft xxx
+						//se proposto eseguire 
+sudo apt autoremove	//rimuove le dipendenze in relazione al purge precedente.
+synaptic				// software grafico per la gestione dei pacchetti
+
+pwd			//posizione attuale
+ls			//lista dei contenuti della cartella
+ls -l			//lista dettagliata
+cd xxx			//chanage directory (aiuto completamento TAB)
+cd ..			//esce dalla cartella a quella sopra
+cd			//torna alla directori basica dell'user
+man ls			//manuale del comando ls
+ls -l -t		//ls dettagliato in ordine di tempo
+ls -lh			//ls detagliato con dimensione dei files
+
+cd Documents/WORKSPACE/GIT_REPOSITORY/VLSI/		//entro nella cartella in modo relativo
+cd /home/rr/Documents/WORKSPACE/GIT_REPOSITORY/VLSI/	//entro nella cartella in modo assoluto
+
+ls -la			//ls dettagliato che mostra anche i file nascosti
+
+history			//storico dei comandi eseguiti in bach
+!xxx                    //xxx numero del'history viene ri eseguito
+
+mkdir yyy		//crea la cartella yyy
+mkdir "yyy xxx"		//crea una cartella con uno spazio incluso
+mkdir yyy xxx zzz 	//crea tre cartelle: yyy, xxx, zzz
+mkdir sss/ddd		//crea la cartella ddd dentro sss (esistente)
+mkdir -p aaa/fff	//crea la cartella fff dentro aaa (non esistente)
+
+rm -r xxx		//cancella la cartella e tutto il suo contenuto
+rm aaa			//cancella il file 
+
+touch abc.txt			//crea il file abc.txt
+	
+mv abc.txt /home/vvv		//sposta il file nella posizione assoluta .../vvv
+
+mv abc.txt cba.txt		// rinomina il file con il nuovo nome
+
+cp abc.txt /home/rr/ccc		// copia il file nella cartella assoluta
+cp -r dir4 dir10		// copia la cartella dir4 in dir 10
+
+cp abc.txt cba.txt dir11	// copia i due file nella cartella dir11
+
+ls -l *				// mostrami tutto il contenuto di tutte le cartelle e sottocartella
+ls -l *.*			// tutti i file che contengono un .
+ls -l *.txt			// visualizza tutti i files .txt
+
+df				//occupazione files
+df -h				//occupazione files con unita
+df -h /home			//occupazione dell'home

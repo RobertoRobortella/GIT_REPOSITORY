@@ -1,0 +1,12 @@
+\frametitle{Tecnologie}
+Tramite questo progetto, i seguenti ambiti e tecnologie saranno affrontati:
+\begin{enumerate}{}{}
+\item Elettronica analogica e/o mixed signal (Driver/sensorica/PID);
+\item Conversione energetica DC/DC;
+\item Amplificazione in gamma audio con stadio in classe-D;
+\item Programmazione Microcontrollore STM32 (idealmente STM32F469i-DISCO);
+\item Disegno CAD e stampa 3D (AutoCad Inventor o FreeCad o altro);
+\item Dimensionamento e simulazione elettroacustica con parametri Thiele \& Small (WinISD o simili);
+\item Disegno CAD di schematico e PCB (Altium o Eagle o KiCad);
+\item Stesura documentazione il \LaTeX (Texmaker o LED o OverLeaf).
+\end{enumerate}

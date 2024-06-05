@@ -1,0 +1,117 @@
+\section{Introduzione}
+\begin{frame}[fragile]
+\frametitle{Introduzione}
+ViBra 2.0 nasce come studio alternativo ad un attuale prodotto, commercializzato da un nostro partner, attualmente sul mercato.\\
+Il prodotto attuale (ViBra 1.0) produce variazioni di pressione, applicate con specifiche cupole, sui tessuti del paziente.\\ Tramite le conseguenti vibrazioni stimola i tessuti sottostanti tonificando e migliorandone la circolazione.\\
+Il dispositivo possiede 14 uscite sincrone, attivate da una soffiante a canali laterali, che convoglia il flusso in un frazionatore che alterna i flussi entata-uscita della soffiante ad ogni uscita.
+\end{frame}
+
+\section{Nuovo design: Intenti e Limitazioni}
+\begin{frame}[fragile]
+\frametitle{Limitazioni attuali}
+Affinché si possa migliorare il prodotto attuale (1.0), elenchiamo alcuni dei limiti attuali:
+\newline
+\begin{list}{}{}
+\item{- Numero di canali: (14) Fisso;}
+\item{- Forma d'onda: fissa (pseudo-sinusoidale);}
+\item{- Velocità  di pulsazone: Unica per tutti i canali (30-500Hz);}
+\item{- Notevole ingombro dovuto alla soffiante e al frazionatore;}
+\item{- Notevole costo per soffiante e frazionatore.}
+\end{list}
+\end{frame}
+
+\begin{frame}[fragile]
+\frametitle{Migliorie possibili}
+Nel nuovo prodotto si vorrebbe ottenere le seguenti migliorie:
+\newline
+\begin{list}{}{}
+\item{- Numero di canali: (14) Selezionabili separatamente;}
+\item{- Forma d'onda: Selezionabile;}
+\item{- Visualizzazione della pressione applicata;}
+\item{- Velocità  di pulsazone: Separata per tutti i canali (30-500Hz);}
+\item{- Riduzione degli ingombri generali rispetto al design 1.0;}
+\item{- Riduzione dei costi realizzativi.}
+\end{list}
+\end{frame}
+
+\section{Progetto di studio}
+\begin{frame}[fragile]
+\frametitle{Motivazione}
+Considerate le limitazioni tecniche del dispositivo attuale e l'impossibilità  di utilizzare trattamenti a pressioni e frequenze diverse per ogni attuatore, si vorrebbe realizzare, tramite attuatore elettroacustico, un sistema a canali indipendenti e parametrizzabili singolarmente.\\ Per questo studio ci limiteremo ad un singolo canale.\\
+Il range di pressioni di lavoro dovranno essere compresi tra +/-250 mBar per frequenze di stimolazione comprese tra 30Hz e 500Hz.
+\end{frame}
+
+%\subsection{Compiti}
+%\begin{frame}[fragile]
+%\frametitle{Compiti}
+%I seguenti compiti saranno da portare a termine:
+%\begin{enumerate}{}{}
+%\item Definire le specifiche di sistema in accordo con il relatore;
+%\item Definire l'architettura per l'implementazione;
+%\item Definire l'hardware necessario all'implementazione;
+%\item Valutare l'elettronica necessaria all'attuazione, alla misura e al %controllo delle variabili di funzionamento;
+%\item Proporre una configurazione hardware (meccanica ed elettronica) per %realizzare il dispositivo mono/duo-canale;
+%\item Realizzare meccanica, elettronica e firmware per un banco dimostrativo %funzionale.
+%\end{enumerate}
+%\end{frame}
+
+\subsection{Schema di principio}
+\begin{frame}[fragile]
+\frametitle{Schema di principio}
+\begin{figure}
+\centering
+\subfloat[ALU]{\includegraphics[scale=0.4]{./figures/FigA.png}}\
+\end{figure}
+\end{frame}
+
+\subsection{Schema di principio}
+\begin{frame}[fragile]
+\frametitle{Schema di principio}
+La realizzazione dovrà indicativamente rappresentare lo schema precedente, che si compone di:
+\begin{itemize}{}{}
+\item \textbf{Alimentazione (Supply) :} produce tutte le alimentazioni neccessarie a partire da 24VDC (ev. non oltre 48VDC).
+\item \textbf{Driver :} idealmente in classe D.
+\item \textbf{Display Touch :} interfaccia utente e monitoraggio.
+\item \textbf{Sensore di posizione :} misura lo spostamento della membrana.
+\item \textbf{Sensori di pressione :} misurano la pressione applicata alle cupole.
+\end{itemize}
+\end{frame}
+
+\begin{frame}[fragile]
+\frametitle{Schema di principio}
+\begin{itemize}{}{}
+\item \textbf{Controllo :} Controllo closed-loop della pressione di applicazione e limitazione dell'escursione della membrana. Idealmente in forma PID analogico o digitale (su microcontrollore).
+\item \textbf{Microcontrollore (uC) :} Gestione interfaccia utente, genera i segnali di stimolo, legge i sensori. Eventualmente integra il controllore.
+\item \textbf{Attuatore :} produce la pressione elettroacustica. Idealmente di tipo sub-woofer con alto $x_{max}$.
+\end{itemize}
+\end{frame}
+
+\subsection{Obiettivi di progetto}
+\begin{frame}[fragile]
+\frametitle{Obiettivi di progetto}
+I seguenti obbiettivi di progetto/tesi dovranno essere raggiunti:
+\begin{enumerate}{}{}
+\item{Definire le specifiche iniziali;}
+\item{Studiare ed implementare tramite stampa 3D la struttura meccanica del blocco di attuazione sulla base dell'attuatore selezionato;}
+\item{Studiare, simulare, dimensionare ed implementare una scheda elettronica che racchiuda: Display Touch, microcontrollore, controllore, driver, sensori, alimentazione;}
+\item{Realizzare un banco prova/dimostratore;}
+\item{Definire delle specifiche finali sotto forma di datasheet;}
+\item{Redazione della documentazione relativa al progetto: Poster, Presentazione, Rapporto (\LaTeX).}
+\end{enumerate}
+\end{frame}
+
+\subsection{Tecnologie}
+\begin{frame}[fragile]
+\frametitle{Tecnologie}
+Tramite questo progetto, i seguenti ambiti e tecnologie saranno affrontati:
+\begin{enumerate}{}{}
+\item Elettronica analogica e/o mixed signal (Driver/sensorica/PID);
+\item Conversione energetica DC/DC;
+\item Amplificazione in gamma audio con stadio in classe-D;
+\item Programmazione Microcontrollore STM32 (idealmente STM32F469i-DISCO);
+\item Disegno CAD e stampa 3D (AutoCad Inventor o FreeCad o altro);
+\item Dimensionamento e simulazione elettroacustica con parametri Thiele \& Small (WinISD o simili);
+\item Disegno CAD di schematico e PCB (Altium o Eagle o KiCad);
+\item Stesura documentazione il \LaTeX (Texmaker o LED o OverLeaf).
+\end{enumerate}
+\end{frame}

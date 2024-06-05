@@ -1,0 +1,23 @@
+Nella cartella di progetto lanciare il comando dal terminale:
+
+magic  -rcfile /usr/local/share/pdk/sky130A/libs.tech/magic/sky130A.magicrc
+
+Per la documentazione della tech:
+
+https://skywater-pdk.readthedocs.io/en/main/
+https://skywater-pdk.readthedocs.io/en/main/rules/assumptions.html
+
+Video reference:
+1) https://www.youtube.com/watch?v=ZhArGvsA6gw
+2) https://www.youtube.com/watch?v=a6pJenKlL1k
+
+
+Comandi utili Magic:
+
+drc find
+erase pdiff
+paint li	// local interconnect
+paint pdc  // p diffusion contact
+paint ndc  // n diffusin contact
+paint ntap //per il bodyconnect (PMOS) N+
+paint ntapc	// n tap connect (via)

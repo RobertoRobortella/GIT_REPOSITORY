@@ -21,17 +21,9 @@ per la simulazione: Nelezionare la netlist di tipo Spice nel menu OPTION
 Cliccare Netlist nella finestra in alto a destra
 Cliccare Simulate in alto a destra
 
-//Dalla console xterm di ngspice:
+Dalla console xterm di ngspice:
 display // per vedere i segnali
 plot xx // per vedere 1 segnale 
 plot xx yy ... // per vedere ... segnali
 meas dc vm when vin=vout  // per farsi calcolare l'intersezione dei due grafici
-
-//per determinare il noise margin d'ingresso dell'inverter
-plot deriv(vout)  //disegna la derivata
-let gain=abs(deriv(vout)) >= 1
-plot gain // mostra dove la derivata oltrepassa in abs 1 
-plot gain*1.8 vout //mostra il lange di transizione IN-OUT
-meas vil dc find vin when gain=1 cross=1	// prima intersezione di gain=1
-meas vil dc find vin when gain=1 cross=last	// ultima intersezione di gain=1
 

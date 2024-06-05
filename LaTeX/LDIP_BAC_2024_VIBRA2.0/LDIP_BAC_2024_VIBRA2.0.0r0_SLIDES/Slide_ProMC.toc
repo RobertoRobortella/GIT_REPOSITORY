@@ -1,0 +1,8 @@
+\babel@toc {english}{}\relax 
+\beamer@sectionintoc {1}{Introduzione}{2}{0}{1}
+\beamer@sectionintoc {2}{Nuovo design: Intenti e Limitazioni}{3}{0}{2}
+\beamer@sectionintoc {3}{Progetto di studio}{5}{0}{3}
+\beamer@subsectionintoc {3}{1}{Schema di principio}{6}{0}{3}
+\beamer@subsectionintoc {3}{2}{Schema di principio}{7}{0}{3}
+\beamer@subsectionintoc {3}{3}{Obiettivi di progetto}{9}{0}{3}
+\beamer@subsectionintoc {3}{4}{Tecnologie}{10}{0}{3}

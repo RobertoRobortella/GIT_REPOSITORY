@@ -1,0 +1,8 @@
+Ciao LINUX!
+
+Saluti Windows
+
+user samba:	RR
+passwd samba:	biomedtech
+ip linux:	ifconfig
+

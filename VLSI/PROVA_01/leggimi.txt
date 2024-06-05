@@ -1,0 +1,66 @@
+Nella cartella di progetto lanciare il comando dal terminale:
+
+magic  -rcfile /usr/local/share/pdk/sky130A/libs.tech/magic/sky130A.magicrc
+
+Per la documentazione della tech:
+
+https://skywater-pdk.readthedocs.io/en/main/
+https://skywater-pdk.readthedocs.io/en/main/rules/assumptions.html
+
+Video reference:
+1) https://www.youtube.com/watch?v=ZhArGvsA6gw
+2) https://www.youtube.com/watch?v=a6pJenKlL1k
+3) https://www.youtube.com/watch?v=bIuzsE3lDNQ
+
+
+Comandi utili Magic:
+
+drc find
+erase pdiff
+paint li	// local interconnect
+paint pdc  // p diffusion contact
+paint ndc  // n diffusin contact
+paint ntap //per il bodyconnect (PMOS) N+
+paint ntapc	// n tap connect (via)
+label vss	//annotare la pista come vss (fare lo stesso per tutti i pin sul metal usato)
+// andando sul metal e premendo "s" più volte il soft visualizza a cosa é connesso
+extract all	// estrae la netlist in formato xxx.ext; esempio: 3_INV_LAYOUT.ext
+ext2spice xxx.ext 	// conversione ext>spice; esempio ext2spice 3_INV_LAYOUT.ext
+
+ls -lrth //nella cartella di progetto mostra i file, la data e l'accesso
+
+//Per comparare le netlist (.spice) di xschem e magic serve netgen 
+
+Simulazione postlayout: https://www.youtube.com/watch?v=8SMBSYiLbHM
+
+aprire il componente in magic e rinominare i label in porte
+selezionare l'area dove c'é il label e scrivere il comando: 
+port make 1 (su in) // il label diventa porta in blu
+port make 2 (su out) // il label diventa porta in blu
+port make 3 (su vdd) // il label diventa porta in blu
+port make 4 (su vss) // il label diventa porta in blu
+
+extract all
+ext2spice hierarchy on
+ext2spice scale off
+ext2spice cthresh infinite // setta le capacità di thershold a infinito
+ext2spice //converte ext to spice
+save
+exit
+
+nella cartella di progetto ora c'é il nuovo spice file: esempio: 3_INV_LAYOUT.spice
+aprirlo con:  
+vim 3_INV_LAYOUT.spice
+ora compare come subcircuit:
+///
+* SPICE3 file created from 3_INV_LAYOUT.ext - technology: sky130A
+.subckt x3_INV_LAYOUT in out vdd vss
+X0 out in vss vss sky130_fd_pr__nfet_01v8 ad=0.45 pd=2.9 as=0.45 ps=2.9 w=1 l=0.15
+X1 out in vdd vdd sky130_fd_pr__pfet_01v8 ad=1.025 pd=5.1 as=1.025 ps=5.1 w=2.05 l=0.15
+.ends
+///
+importabile in xschem e simulabile come subckt ...
+Nella cartella diello schematico rinominare il file del test bench per sostituirvi il postlayout.
+
+
+

@@ -1,0 +1,27 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1714029314
+<< error_p >>
+rect -100 190 110 230
+rect -60 151 -59 190
+rect 70 151 110 190
+rect -60 150 110 151
+<< nwell >>
+rect -100 -50 110 230
+<< pmos >>
+rect -10 0 20 90
+<< ndiff >>
+rect -60 150 70 190
+<< pdiff >>
+rect -60 0 -10 90
+rect 20 0 70 90
+<< poly >>
+rect -10 90 20 130
+rect -10 -50 20 0
+<< labels >>
+flabel nwell -90 -40 -50 -30 0 FreeSans 80 0 0 0 nwell
+flabel pdiff -60 0 -20 10 0 FreeSans 80 0 0 0 pdiff
+flabel poly -10 120 20 130 0 FreeSans 80 0 0 0 poly
+flabel ndiff -60 150 -20 160 0 FreeSans 80 0 0 0 ndiff
+<< end >>

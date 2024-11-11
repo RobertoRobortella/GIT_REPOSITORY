@@ -1,0 +1,14 @@
+sk-proj-JsGxtc1hK7rQs3neiDI9T3BlbkFJ73s8AYOADLjQN8ohnDDx
+
+sk-proj-9RXmZu0N1DV21DnFdzbnT3BlbkFJfXd1czZNR2wLInlvU32g
+
+
+
+
+curl https://api.openai.com/v1/chat/completions \
+  -H "Content-Type: application/json" \
+  -H "Authorization: Bearer sk-proj-JsGxtc1hK7rQs3neiDI9T3BlbkFJ73s8AYOADLjQN8ohnDDx" \
+  -d '{
+    "model": "gpt-3.5-turbo",
+    "messages": [{"role": "user", "content": "Ciao, come stai?"}]
+  }'

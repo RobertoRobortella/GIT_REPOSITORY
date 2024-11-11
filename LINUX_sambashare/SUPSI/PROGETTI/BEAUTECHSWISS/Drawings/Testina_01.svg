@@ -1,0 +1,691 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg1"
+   sodipodi:docname="Testina_01.svg"
+   inkscape:version="1.3.2 (1:1.3.2+202311252150+091e20ef0f)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#cccccc"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="1"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="1.4592172"
+     inkscape:cx="363.20845"
+     inkscape:cy="766.50688"
+     inkscape:window-width="1920"
+     inkscape:window-height="1043"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1">
+    <linearGradient
+       id="swatch5"
+       inkscape:swatch="solid">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop5" />
+    </linearGradient>
+    <linearGradient
+       id="swatch4"
+       inkscape:swatch="solid">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop4" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#swatch4"
+       id="linearGradient4"
+       x1="50"
+       y1="55"
+       x2="60"
+       y2="55"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.96478526,0,0,0.9647852,1.9368116,1.9368116)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#swatch5"
+       id="linearGradient5"
+       x1="50"
+       y1="67.5"
+       x2="60"
+       y2="67.5"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#swatch5"
+       id="linearGradient6"
+       gradientUnits="userSpaceOnUse"
+       x1="50"
+       y1="67.5"
+       x2="60"
+       y2="67.5" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#swatch5"
+       id="linearGradient5-8"
+       x1="50"
+       y1="67.5"
+       x2="60"
+       y2="67.5"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#swatch5"
+       id="linearGradient7"
+       gradientUnits="userSpaceOnUse"
+       x1="50"
+       y1="67.5"
+       x2="60"
+       y2="67.5" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#swatch5"
+       id="linearGradient5-4"
+       x1="50"
+       y1="67.5"
+       x2="60"
+       y2="67.5"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#swatch4"
+       id="linearGradient8"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.96478526,0,0,0.9647852,1.9368173,31.93681)"
+       x1="50"
+       y1="55"
+       x2="60"
+       y2="55" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#swatch5"
+       id="linearGradient9"
+       gradientUnits="userSpaceOnUse"
+       x1="50"
+       y1="67.5"
+       x2="60"
+       y2="67.5" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#swatch5"
+       id="linearGradient10"
+       gradientUnits="userSpaceOnUse"
+       x1="50"
+       y1="67.5"
+       x2="60"
+       y2="67.5" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#swatch5"
+       id="linearGradient11"
+       gradientUnits="userSpaceOnUse"
+       x1="50"
+       y1="67.5"
+       x2="60"
+       y2="67.5" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#swatch5"
+       id="linearGradient5-5"
+       x1="50"
+       y1="67.5"
+       x2="60"
+       y2="67.5"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#swatch4"
+       id="linearGradient12"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.96478526,0,0,0.9647852,16.936818,1.936817)"
+       x1="50"
+       y1="55"
+       x2="60"
+       y2="55" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#swatch5"
+       id="linearGradient13"
+       gradientUnits="userSpaceOnUse"
+       x1="50"
+       y1="67.5"
+       x2="60"
+       y2="67.5" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#swatch5"
+       id="linearGradient14"
+       gradientUnits="userSpaceOnUse"
+       x1="50"
+       y1="67.5"
+       x2="60"
+       y2="67.5" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#swatch5"
+       id="linearGradient15"
+       gradientUnits="userSpaceOnUse"
+       x1="50"
+       y1="67.5"
+       x2="60"
+       y2="67.5" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#swatch5"
+       id="linearGradient16"
+       gradientUnits="userSpaceOnUse"
+       x1="50"
+       y1="67.5"
+       x2="60"
+       y2="67.5" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#swatch4"
+       id="linearGradient17"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.96478526,0,0,0.9647852,16.936823,31.936815)"
+       x1="50"
+       y1="55"
+       x2="60"
+       y2="55" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#swatch5"
+       id="linearGradient18"
+       gradientUnits="userSpaceOnUse"
+       x1="50"
+       y1="67.5"
+       x2="60"
+       y2="67.5" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#swatch5"
+       id="linearGradient5-81"
+       x1="50"
+       y1="67.5"
+       x2="60"
+       y2="67.5"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#swatch4"
+       id="linearGradient19"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.96478526,0,0,0.9647852,31.936817,1.9368165)"
+       x1="50"
+       y1="55"
+       x2="60"
+       y2="55" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#swatch5"
+       id="linearGradient20"
+       gradientUnits="userSpaceOnUse"
+       x1="50"
+       y1="67.5"
+       x2="60"
+       y2="67.5" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#swatch5"
+       id="linearGradient21"
+       gradientUnits="userSpaceOnUse"
+       x1="50"
+       y1="67.5"
+       x2="60"
+       y2="67.5" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#swatch5"
+       id="linearGradient22"
+       gradientUnits="userSpaceOnUse"
+       x1="50"
+       y1="67.5"
+       x2="60"
+       y2="67.5" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#swatch5"
+       id="linearGradient23"
+       gradientUnits="userSpaceOnUse"
+       x1="50"
+       y1="67.5"
+       x2="60"
+       y2="67.5" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#swatch4"
+       id="linearGradient24"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.96478526,0,0,0.9647852,31.936822,31.936815)"
+       x1="50"
+       y1="55"
+       x2="60"
+       y2="55" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#swatch5"
+       id="linearGradient25"
+       gradientUnits="userSpaceOnUse"
+       x1="50"
+       y1="67.5"
+       x2="60"
+       y2="67.5" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#swatch5"
+       id="linearGradient26"
+       gradientUnits="userSpaceOnUse"
+       x1="50"
+       y1="67.5"
+       x2="60"
+       y2="67.5" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#swatch5"
+       id="linearGradient27"
+       gradientUnits="userSpaceOnUse"
+       x1="50"
+       y1="67.5"
+       x2="60"
+       y2="67.5"
+       gradientTransform="translate(30.000005)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#swatch5"
+       id="linearGradient28"
+       gradientUnits="userSpaceOnUse"
+       x1="50"
+       y1="67.5"
+       x2="60"
+       y2="67.5" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#swatch4"
+       id="linearGradient29"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.96478526,0,0,0.9647852,46.936823,1.9368215)"
+       x1="50"
+       y1="55"
+       x2="60"
+       y2="55" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <circle
+       style="fill:#c8ab37;stroke-width:0.365001"
+       id="path3"
+       cx="77"
+       cy="80"
+       r="50" />
+    <circle
+       style="fill:#c8ab37;stroke-width:0.365001"
+       id="path3-6"
+       cx="110"
+       cy="200"
+       r="50" />
+    <rect
+       style="fill:#00ffff;stroke:url(#linearGradient4);stroke-width:0.352148"
+       id="rect2"
+       width="9.6478519"
+       height="9.6478519"
+       x="50.176071"
+       y="50.176071"
+       ry="0" />
+    <a
+       id="a4"
+       transform="matrix(0.9647733,0,0,0.96479708,1.9374684,-0.12380723)"
+       style="stroke:url(#linearGradient5)">
+      <rect
+         style="fill:#00ffff;stroke:url(#linearGradient6);stroke-width:0.365001"
+         id="rect2-6"
+         width="10"
+         height="10"
+         x="50"
+         y="62.5" />
+    </a>
+    <a
+       id="a4-6"
+       transform="matrix(0.9647733,0,0,0.96479708,1.9374684,9.8761927)"
+       style="stroke:url(#linearGradient5-8)">
+      <rect
+         style="fill:#00ffff;stroke:url(#linearGradient7);stroke-width:0.365001"
+         id="rect2-6-4"
+         width="10"
+         height="10"
+         x="50"
+         y="62.5" />
+    </a>
+    <rect
+       style="fill:#00ffff;stroke:url(#linearGradient8);stroke-width:0.352148"
+       id="rect2-7"
+       width="9.6478519"
+       height="9.6478519"
+       x="50.176075"
+       y="80.176071"
+       ry="0" />
+    <a
+       id="a4-2"
+       transform="matrix(0.9647733,0,0,0.96479708,1.9374066,29.876258)"
+       style="stroke:url(#linearGradient10)">
+      <rect
+         style="fill:#00ffff;stroke:url(#linearGradient9);stroke-width:0.365001"
+         id="rect2-6-2"
+         width="10"
+         height="10"
+         x="50"
+         y="62.5" />
+    </a>
+    <a
+       id="a4-6-6"
+       transform="matrix(0.9647733,0,0,0.96479708,1.9374066,39.876258)"
+       style="stroke:url(#linearGradient5-4)">
+      <rect
+         style="fill:#00ffff;stroke:url(#linearGradient11);stroke-width:0.365001"
+         id="rect2-6-4-1"
+         width="10"
+         height="10"
+         x="50"
+         y="62.5" />
+    </a>
+    <rect
+       style="fill:#decd87;stroke-width:0.482369"
+       id="rect4-2"
+       width="5"
+       height="60"
+       x="60"
+       y="50" />
+    <rect
+       style="fill:#00ffff;stroke:url(#linearGradient12);stroke-width:0.352148"
+       id="rect2-1"
+       width="9.6478519"
+       height="9.6478519"
+       x="65.176071"
+       y="50.176075"
+       ry="0" />
+    <a
+       id="a4-5"
+       transform="matrix(0.9647733,0,0,0.96479708,16.937474,-0.12380203)"
+       style="stroke:url(#linearGradient14)">
+      <rect
+         style="fill:#00ffff;stroke:url(#linearGradient13);stroke-width:0.365001"
+         id="rect2-6-9"
+         width="10"
+         height="10"
+         x="50"
+         y="62.5" />
+    </a>
+    <a
+       id="a4-6-7"
+       transform="matrix(0.9647733,0,0,0.96479708,16.937474,9.8761975)"
+       style="stroke:url(#linearGradient16)">
+      <rect
+         style="fill:#00ffff;stroke:url(#linearGradient15);stroke-width:0.365001"
+         id="rect2-6-4-7"
+         width="10"
+         height="10"
+         x="50"
+         y="62.5" />
+    </a>
+    <rect
+       style="fill:#00ffff;stroke:url(#linearGradient17);stroke-width:0.352148"
+       id="rect2-7-6"
+       width="9.6478519"
+       height="9.6478519"
+       x="65.176079"
+       y="80.176071"
+       ry="0" />
+    <a
+       id="a4-2-7"
+       transform="matrix(0.9647733,0,0,0.96479708,16.937413,29.876263)"
+       style="stroke:url(#linearGradient18)">
+      <rect
+         style="fill:#00ffff;stroke:url(#swatch5);stroke-width:0.365001"
+         id="rect2-6-2-3"
+         width="10"
+         height="10"
+         x="50"
+         y="62.5" />
+    </a>
+    <a
+       id="a4-6-6-6"
+       transform="matrix(0.9647733,0,0,0.96479708,16.937413,39.876263)"
+       style="stroke:url(#linearGradient5-5)">
+      <rect
+         style="fill:#00ffff;stroke:url(#swatch5);stroke-width:0.365001"
+         id="rect2-6-4-1-5"
+         width="10"
+         height="10"
+         x="50"
+         y="62.5" />
+    </a>
+    <rect
+       style="fill:#c8ab37;stroke-width:0.521018"
+       id="rect4-2-6"
+       width="5"
+       height="70"
+       x="75.000008"
+       y="45" />
+    <rect
+       style="fill:#00ffff;stroke:url(#linearGradient19);stroke-width:0.352148"
+       id="rect2-5"
+       width="9.6478519"
+       height="9.6478519"
+       x="80.176071"
+       y="50.176075"
+       ry="0" />
+    <a
+       id="a4-9"
+       transform="matrix(0.9647733,0,0,0.96479708,31.937473,-0.12380247)"
+       style="stroke:url(#linearGradient21)">
+      <rect
+         style="fill:#00ffff;stroke:url(#linearGradient20);stroke-width:0.365001"
+         id="rect2-6-8"
+         width="10"
+         height="10"
+         x="50"
+         y="62.5" />
+    </a>
+    <a
+       id="a4-6-4"
+       transform="matrix(0.9647733,0,0,0.96479708,31.937473,9.8761975)"
+       style="stroke:url(#linearGradient23)">
+      <rect
+         style="fill:#00ffff;stroke:url(#linearGradient22);stroke-width:0.365001"
+         id="rect2-6-4-8"
+         width="10"
+         height="10"
+         x="50"
+         y="62.5" />
+    </a>
+    <rect
+       style="fill:#00ffff;stroke:url(#linearGradient24);stroke-width:0.352148"
+       id="rect2-7-1"
+       width="9.6478519"
+       height="9.6478519"
+       x="80.176071"
+       y="80.176071"
+       ry="0" />
+    <a
+       id="a4-2-0"
+       transform="matrix(0.9647733,0,0,0.96479708,31.937412,29.876263)"
+       style="stroke:url(#linearGradient25)">
+      <rect
+         style="fill:#00ffff;stroke:url(#swatch5);stroke-width:0.365001"
+         id="rect2-6-2-30"
+         width="10"
+         height="10"
+         x="50"
+         y="62.5" />
+    </a>
+    <a
+       id="a4-6-6-4"
+       transform="matrix(0.9647733,0,0,0.96479708,31.937412,39.876263)"
+       style="stroke:url(#linearGradient26)">
+      <rect
+         style="fill:#00ffff;stroke:url(#swatch5);stroke-width:0.365001"
+         id="rect2-6-4-1-4"
+         width="10"
+         height="10"
+         x="50"
+         y="62.5" />
+    </a>
+    <rect
+       style="fill:#decd87;stroke-width:0.482369"
+       id="rect4-2-4"
+       width="5"
+       height="60"
+       x="90"
+       y="50.000004" />
+    <rect
+       style="fill:#00ffff;stroke:url(#linearGradient27);stroke-width:0.352148"
+       id="rect2-1-4"
+       width="9.6478519"
+       height="9.6478519"
+       x="95.176071"
+       y="50.176083"
+       ry="0" />
+    <a
+       id="a4-5-7"
+       transform="matrix(0.9647733,0,0,0.96479708,46.937479,-0.12379747)"
+       style="stroke:url(#swatch5)">
+      <rect
+         style="fill:#00ffff;stroke:url(#swatch5);stroke-width:0.365001"
+         id="rect2-6-9-6"
+         width="10"
+         height="10"
+         x="50"
+         y="62.5" />
+    </a>
+    <a
+       id="a4-6-7-3"
+       transform="matrix(0.9647733,0,0,0.96479708,46.937479,9.8762025)"
+       style="stroke:url(#swatch5)">
+      <rect
+         style="fill:#00ffff;stroke:url(#linearGradient28);stroke-width:0.365001"
+         id="rect2-6-4-7-1"
+         width="10"
+         height="10"
+         x="50"
+         y="62.5" />
+    </a>
+    <rect
+       style="fill:#00ffff;stroke:url(#linearGradient29);stroke-width:0.352148"
+       id="rect2-7-6-7"
+       width="9.6478519"
+       height="9.6478519"
+       x="95.176079"
+       y="80.176071"
+       ry="0" />
+    <a
+       id="a4-2-7-5"
+       transform="matrix(0.9647733,0,0,0.96479708,46.937418,29.876268)"
+       style="stroke:url(#swatch5)">
+      <rect
+         style="fill:#00ffff;stroke:url(#swatch5);stroke-width:0.365001"
+         id="rect2-6-2-3-9"
+         width="10"
+         height="10"
+         x="50"
+         y="62.5" />
+    </a>
+    <a
+       id="a4-6-6-6-6"
+       transform="matrix(0.9647733,0,0,0.96479708,46.937418,39.876268)"
+       style="stroke:url(#linearGradient5-81)">
+      <rect
+         style="fill:#00ffff;stroke:url(#swatch5);stroke-width:0.365001"
+         id="rect2-6-4-1-5-2"
+         width="10"
+         height="10"
+         x="50"
+         y="62.5" />
+    </a>
+    <rect
+       style="fill:#f9f9f9;stroke-width:0.0164891"
+       id="rect3"
+       width="5"
+       height="2"
+       x="60"
+       y="-52"
+       transform="scale(1,-1)" />
+    <rect
+       style="fill:#f9f9f9;stroke-width:0.0164891"
+       id="rect3-2"
+       width="5"
+       height="2"
+       x="60"
+       y="-110"
+       transform="scale(1,-1)" />
+    <rect
+       style="fill:#f9f9f9;stroke-width:0.0164891"
+       id="rect3-1"
+       width="5"
+       height="2"
+       x="90"
+       y="-52"
+       transform="scale(1,-1)" />
+    <rect
+       style="fill:#f9f9f9;stroke-width:0.0164891"
+       id="rect3-5"
+       width="5"
+       height="2"
+       x="90"
+       y="-110"
+       transform="scale(1,-1)" />
+    <circle
+       id="path42"
+       style="fill:#c8ab37;stroke:#000000;stroke-width:0.264583"
+       cx="50.928616"
+       cy="80.095909"
+       r="0.005889779" />
+    <circle
+       style="fill:#ffff00;stroke-width:0.365001"
+       id="path43"
+       cx="110"
+       cy="200"
+       r="46" />
+    <circle
+       style="fill:#c8ab37;stroke-width:0.324445"
+       id="path43-6"
+       cx="110"
+       cy="200"
+       r="40" />
+    <rect
+       style="fill:#c8ab37;stroke-width:0.370741"
+       id="rect43"
+       width="5"
+       height="95"
+       x="107.7"
+       y="152" />
+    <rect
+       style="fill:#c8ab37;stroke-width:0.365001"
+       id="rect44"
+       width="95"
+       height="5"
+       x="62.093575"
+       y="196.836" />
+  </g>
+</svg>

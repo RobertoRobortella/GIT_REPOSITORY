@@ -6,3 +6,39 @@ git add .
 git commit -m "nota2"
 git push origin main
 
+# Start lstpice through wine
+# To open file in LTspice, move it to somewhere in ~/.wine/drive_c folder which is the C drive in wine.
+mkdir ~/.wine/drive_c/Program\ Files/LTC/LTspiceXVII/examples/Educational/my_ltspice_files
+
+# Copy file from Examples to my_ltspice_files diretory this is more pratical.
+cp ~/.wine/drive_c/Program\ Files/LTC/LTspiceXVII/examples/Educational/Clapp.asc ~/.wine/drive_c/Program\ Files/LTC/LTspiceXVII/examples/Educational/my_ltspice_files/Clapp.asc 
+
+# In this way it is better organized but the examples are far away from your projects directory.
+mkdir ~/.wine/drive_c/my_ltspice_files_2
+cp ~/my_files/test.asc ~/.wine/drive_c/my_ltspice_files_2/
+
+# To open file in LTspice, move it to somewhere in ~/.wine/drive_c folder which is the C drive in wine.
+mkdir ~/.wine/drive_c/Program\ Files/LTC/LTspiceXVII/examples/Educational/my_ltspice_files
+
+# Copy file from Examples to my_ltspice_files diretory this is more pratical.
+cp ~/.wine/drive_c/Program\ Files/LTC/LTspiceXVII/examples/Educational/Clapp.asc ~/.wine/drive_c/Program\ Files/LTC/LTspiceXVII/examples/Educational/my_ltspice_files/Clapp.asc 
+
+# In this way it is better organized but the examples are far away from your projects directory.
+mkdir ~/.wine/drive_c/my_ltspice_files_2
+cp ~/my_files/test.asc ~/.wine/drive_c/my_ltspice_files_2/
+
+Per accedere in ssh ad esempio alla raspberrypiN1 con user e password = raptor:
+ssh raptor@raspberrypiN1
+
+
+Chiave Monero Biomedtech_Linux
+4BHcKUiVGoBaenwQBP34aPC3s3oCiU8fBRNhE7eCvexACUwvhKE5SuHjj6yJnDY28n4eHoX6iUwJWfRoHbJkUHQ4EiKXkQE
+(./xmrig -o gulf.moneroocean.stream:10128 -u 4BHcKUiVGoBaenwQBP34aPC3s3oCiU8fBRNhE7eCvexACUwvhKE5SuHjj6yJnDY28n4eHoX6iUwJWfRoHbJkUHQ4EiKXkQE -p piner)
+
+Per creare da linea di comando un file txt con un contenuto:
+echo "./xmrig -o gulf.moneroocean.stream:10128 -u 4BHcKUiVGoBaenwQBP34aPC3s3oCiU8fBRNhE7eCvexACUwvhKE5SuHjj6yJnDY28n4eHoX6iUwJWfRoHbJkUHQ4EiKXkQE -p piner" >  ~/Desktop/info_mining.txt
+
+
+Per cambiare l'immagine del descktop in datk-theme:
+gsettings set org.gnome.desktop.background picture-uri-dark file:///home/rr/Pictures/SH/webcam_background.jpg
+

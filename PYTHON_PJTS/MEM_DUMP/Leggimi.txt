@@ -1,0 +1,9 @@
+OK_MD_S_10.py
+
+Prende di continuo uno screenshot dello schermo sinistro e lo salva nella cartella
+Pictures/DisplayDump col nome DUMP.png
+
+OK_EYE_DUMP_07.py
+
+Consulta di continuo la cartella di cui sopra, analizzail file in cerca di occhi e
+ri-salva il file (con solo gli occhi) con un timestamp.
